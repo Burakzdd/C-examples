@@ -1,3 +1,13 @@
+/*
+Write a C program to consider triangular inequality. Prompt the boundaries of the random
+number interval. The program must include the triangular function that receives lower and upper
+boundaries and returns whether the three random numbers can form a triangular or not. In
+triangular function, generate and print three random numbers, return 1, if they can construct a
+triangular, otherwise return 0. Print the result in the main function. (Hint: For any triangle, the
+sum of the lengths of any two sides must be greater than or equal to the length of the
+remaining side.)
+http://css-tricks.com/generate-a-random-number/, 2017
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
